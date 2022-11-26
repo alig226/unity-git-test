@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 68
+  controlID: 49
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -224,7 +224,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 78
+  controlID: 17
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -249,7 +249,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 79
+  controlID: 18
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 0
     width: 1103
     height: 556
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -313,13 +313,13 @@ MonoBehaviour:
   currentStatusEntriesHasUpdate: 0
   repositoryProgressHasUpdate: 0
   appManagerProgressHasUpdate: 0
-  changeTab: 5
-  activeTab: 5
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
-    isUserDataPresent: 0
+    isUserDataPresent: 1
     lastCheckUserChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2022-11-26T18:06:47.796+03:00
       cacheType: 8
   branchesView:
     treeLocals:
@@ -402,8 +402,8 @@ MonoBehaviour:
     currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
-    currentBranch: '[unknown]'
-    treeScroll: {x: 0, y: 0}
+    currentBranch: master
+    treeScroll: {x: 0, y: 1145}
     treeChanges:
       assets:
         keys: []
@@ -415,12 +415,30 @@ MonoBehaviour:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 1
       isUsingGlobalSelection: 1
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 1
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -443,60 +461,3332 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-11-26T18:09:00.427+03:00
+      cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-11-26T18:25:19.085+03:00
+      cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
   historyView:
     currentLogHasUpdate: 0
     currentTrackingStatusHasUpdate: 0
-    logEntries: []
-    statusAhead: 0
-    lastLogChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    lastTrackingStatusChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
-    historyControl:
-      scroll: {x: 0, y: 0}
-      entries: []
-      statusAhead: 0
-      selectedIndex: -1
-    selectedEntry:
-      commitID: 
+    logEntries:
+    - commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
       mergeA: 
       mergeB: 
-      authorName: 
-      authorEmail: 
-      commitEmail: 
-      commitName: 
-      summary: 
+      authorName: Thai
+      authorEmail: 61286182+Thai07@users.noreply.github.com
+      commitEmail: 61286182+Thai07@users.noreply.github.com
+      commitName: Thai
+      summary: x
       description: 
-      timeString: 0001-01-01T00:00:00.000+00:00
-      commitTimeString: 0001-01-01T00:00:00.000+00:00
-      changes: []
+      timeString: 2022-11-26T18:16:39.000+03:00
+      commitTimeString: 2022-11-26T18:16:39.000+03:00
+      changes:
+      - path: .vscode\settings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+        projectPath: .vscode\settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+        projectPath: Assets\OutdoorsScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+        projectPath: Assets\OutdoorsScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+        projectPath: Assets\Readme.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+        projectPath: Assets\Readme.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Balanced.asset
+        projectPath: Assets\Settings\HDRP Balanced.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Balanced.asset.meta
+        projectPath: Assets\Settings\HDRP Balanced.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          High Fidelity.asset
+        projectPath: Assets\Settings\HDRP High Fidelity.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          High Fidelity.asset.meta
+        projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Performant.asset
+        projectPath: Assets\Settings\HDRP Performant.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Performant.asset.meta
+        projectPath: Assets\Settings\HDRP Performant.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+        projectPath: Assets\Settings\HDRPDefaultResources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+        projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+        projectPath: Assets\TutorialInfo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+        projectPath: Assets\TutorialInfo\Icons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+        projectPath: Assets\TutorialInfo\Icons\HDRP.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+        projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+        projectPath: Assets\TutorialInfo\Layout.wlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+        projectPath: Assets\TutorialInfo\Layout.wlt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+        projectPath: Assets\TutorialInfo\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\HDRPProjectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+        projectPath: ProjectSettings\HDRPProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+        projectPath: ProjectSettings\ShaderGraphSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\boot.config
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+        projectPath: ProjectSettings\boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\HDRPUserSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+        projectPath: UserSettings\HDRPUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    - commitID: a85bb824c5c9823d6d7f4889ffa82fe4354c2fc7
+      mergeA: 
+      mergeB: 
+      authorName: Thai
+      authorEmail: 61286182+Thai07@users.noreply.github.com
+      commitEmail: 61286182+Thai07@users.noreply.github.com
+      commitName: Thai
+      summary: Initial commit
+      description: 
+      timeString: 2022-11-26T18:08:52.000+03:00
+      commitTimeString: 2022-11-26T18:08:52.000+03:00
+      changes:
+      - path: .gitattributes
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitattributes
+        projectPath: .gitattributes
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: .gitignore
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitignore
+        projectPath: .gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\.gitignore
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\.gitignore
+        projectPath: Assets\.gitignore
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+    statusAhead: 0
+    lastLogChangedEvent:
+      updatedTimeString: 2022-11-26T18:25:21.073+03:00
+      cacheType: 3
+    lastTrackingStatusChangedEvent:
+      updatedTimeString: 2022-11-26T18:25:19.138+03:00
+      cacheType: 5
+    historyControl:
+      scroll: {x: 0, y: 0}
+      entries:
+      - commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
+        mergeA: 
+        mergeB: 
+        authorName: Thai
+        authorEmail: 61286182+Thai07@users.noreply.github.com
+        commitEmail: 61286182+Thai07@users.noreply.github.com
+        commitName: Thai
+        summary: x
+        description: 
+        timeString: 2022-11-26T18:16:39.000+03:00
+        commitTimeString: 2022-11-26T18:16:39.000+03:00
+        changes:
+        - path: .vscode\settings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\OutdoorsScene.unity
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+          projectPath: Assets\OutdoorsScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\OutdoorsScene.unity.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+          projectPath: Assets\OutdoorsScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+          projectPath: Assets\Readme.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Readme.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+          projectPath: Assets\Readme.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP Balanced.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Balanced.asset
+          projectPath: Assets\Settings\HDRP Balanced.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP Balanced.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Balanced.asset.meta
+          projectPath: Assets\Settings\HDRP Balanced.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP High Fidelity.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            High Fidelity.asset
+          projectPath: Assets\Settings\HDRP High Fidelity.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP High Fidelity.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            High Fidelity.asset.meta
+          projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP Performant.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Performant.asset
+          projectPath: Assets\Settings\HDRP Performant.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRP Performant.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Performant.asset.meta
+          projectPath: Assets\Settings\HDRP Performant.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+          projectPath: Assets\Settings\HDRPDefaultResources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\SkyandFogSettingsProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+          projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+          projectPath: Assets\TutorialInfo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+          projectPath: Assets\TutorialInfo\Icons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\HDRP.png
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+          projectPath: Assets\TutorialInfo\Icons\HDRP.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\HDRP.png.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+          projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Help_Icon.png
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+          projectPath: Assets\TutorialInfo\Layout.wlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Layout.wlt.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+          projectPath: Assets\TutorialInfo\Layout.wlt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+          projectPath: Assets\TutorialInfo\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\manifest.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Packages\packages-lock.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\HDRPProjectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+          projectPath: ProjectSettings\HDRPProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+          projectPath: ProjectSettings\ShaderGraphSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: ProjectSettings\boot.config
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+          projectPath: ProjectSettings\boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\HDRPUserSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+          projectPath: UserSettings\HDRPUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Search.settings
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - commitID: a85bb824c5c9823d6d7f4889ffa82fe4354c2fc7
+        mergeA: 
+        mergeB: 
+        authorName: Thai
+        authorEmail: 61286182+Thai07@users.noreply.github.com
+        commitEmail: 61286182+Thai07@users.noreply.github.com
+        commitName: Thai
+        summary: Initial commit
+        description: 
+        timeString: 2022-11-26T18:08:52.000+03:00
+        commitTimeString: 2022-11-26T18:08:52.000+03:00
+        changes:
+        - path: .gitattributes
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitattributes
+          projectPath: .gitattributes
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: .gitignore
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.gitignore
+          projectPath: .gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\.gitignore
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\.gitignore
+          projectPath: Assets\.gitignore
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      statusAhead: 0
+      selectedIndex: 0
+    selectedEntry:
+      commitID: 5316e7244dad3242e1737c9baf7086d487b404b9
+      mergeA: 
+      mergeB: 
+      authorName: Thai
+      authorEmail: 61286182+Thai07@users.noreply.github.com
+      commitEmail: 61286182+Thai07@users.noreply.github.com
+      commitName: Thai
+      summary: x
+      description: 
+      timeString: 2022-11-26T18:16:39.000+03:00
+      commitTimeString: 2022-11-26T18:16:39.000+03:00
+      changes:
+      - path: .vscode\settings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+        projectPath: .vscode\settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+        projectPath: Assets\OutdoorsScene.unity
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+        projectPath: Assets\OutdoorsScene.unity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+        projectPath: Assets\Readme.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Readme.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+        projectPath: Assets\Readme.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+        projectPath: Assets\Settings.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Balanced.asset
+        projectPath: Assets\Settings\HDRP Balanced.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Balanced.asset.meta
+        projectPath: Assets\Settings\HDRP Balanced.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          High Fidelity.asset
+        projectPath: Assets\Settings\HDRP High Fidelity.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          High Fidelity.asset.meta
+        projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Performant.asset
+        projectPath: Assets\Settings\HDRP Performant.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+          Performant.asset.meta
+        projectPath: Assets\Settings\HDRP Performant.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+        projectPath: Assets\Settings\HDRPDefaultResources.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+        projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+        projectPath: Assets\TutorialInfo.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+        projectPath: Assets\TutorialInfo\Icons.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+        projectPath: Assets\TutorialInfo\Icons\HDRP.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+        projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+        projectPath: Assets\TutorialInfo\Layout.wlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+        projectPath: Assets\TutorialInfo\Layout.wlt.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+        projectPath: Assets\TutorialInfo\Scripts.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+        projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\manifest.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+        projectPath: Packages\manifest.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+        projectPath: Packages\packages-lock.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+        projectPath: ProjectSettings\AudioManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+        projectPath: ProjectSettings\ClusterInputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+        projectPath: ProjectSettings\DynamicsManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+        projectPath: ProjectSettings\EditorBuildSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+        projectPath: ProjectSettings\EditorSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+        projectPath: ProjectSettings\GraphicsSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\HDRPProjectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+        projectPath: ProjectSettings\HDRPProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+        projectPath: ProjectSettings\InputManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+        projectPath: ProjectSettings\MemorySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+        projectPath: ProjectSettings\NavMeshAreas.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+        projectPath: ProjectSettings\PackageManagerSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+        projectPath: ProjectSettings\Physics2DSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+        projectPath: ProjectSettings\PresetManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+        projectPath: ProjectSettings\ProjectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+        projectPath: ProjectSettings\ProjectVersion.txt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+        projectPath: ProjectSettings\SceneTemplateSettings.json
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+        projectPath: ProjectSettings\ShaderGraphSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+        projectPath: ProjectSettings\TagManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+        projectPath: ProjectSettings\TimeManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+        projectPath: ProjectSettings\UnityConnectSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+        projectPath: ProjectSettings\VFXManager.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+        projectPath: ProjectSettings\VersionControlSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+        projectPath: ProjectSettings\XRSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: ProjectSettings\boot.config
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+        projectPath: ProjectSettings\boot.config
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\HDRPUserSettings.asset
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+        projectPath: UserSettings\HDRPUserSettings.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+        projectPath: UserSettings\Layouts\default-2021.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+        projectPath: UserSettings\Search.settings
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
     treeChanges:
       assets:
         keys: []
         values: []
       folders:
-        keys: []
-        values: []
+        keys:
+        - .vscode
+        - Assets
+        - Assets\Settings
+        - Assets\Settings\HDRPDefaultResources
+        - Assets\TutorialInfo
+        - Assets\TutorialInfo\Icons
+        - Assets\TutorialInfo\Scripts
+        - Assets\TutorialInfo\Scripts\Editor
+        - Packages
+        - ProjectSettings
+        - ProjectSettings\Packages
+        - ProjectSettings\Packages\com.unity.testtools.codecoverage
+        - UserSettings
+        - UserSettings\Layouts
+        values:
+        - path: .vscode
+          label: .vscode
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets
+          label: Assets
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings
+          label: Settings
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\Settings\HDRPDefaultResources
+          label: HDRPDefaultResources
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TutorialInfo
+          label: TutorialInfo
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TutorialInfo\Icons
+          label: Icons
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts
+          label: Scripts
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Assets\TutorialInfo\Scripts\Editor
+          label: Editor
+          level: 3
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: Packages
+          label: Packages
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings
+          label: ProjectSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings\Packages
+          label: Packages
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
+          label: com.unity.testtools.codecoverage
+          level: 2
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings
+          label: UserSettings
+          level: 0
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
+        - path: UserSettings\Layouts
+          label: Layouts
+          level: 1
+          isFolder: 1
+          isContainer: 0
+          isCollapsed: 0
+          isHidden: 0
+          isActive: 0
+          treeIsCheckable: 0
+          checkState: 0
+          isLocked: 0
+          gitStatusEntry:
+            path: 
+            fullPath: 
+            projectPath: 
+            originalPath: 
+            indexStatus: 0
+            workTreeStatus: 0
       checkedFileNodes:
         keys: []
         values: []
       title: 
-      pathSeparator: /
+      pathSeparator: \
       displayRootNode: 0
       isSelectable: 1
       isCheckable: 0
       isUsingGlobalSelection: 0
-      nodes: []
+      nodes:
+      - path: 
+        label: 
+        level: -1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vscode
+        label: .vscode
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: .vscode\settings.json
+        label: settings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: .vscode\settings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\.vscode\settings.json
+          projectPath: .vscode\settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets
+        label: Assets
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity
+        label: OutdoorsScene.unity
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\OutdoorsScene.unity
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity
+          projectPath: Assets\OutdoorsScene.unity
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\OutdoorsScene.unity.meta
+        label: OutdoorsScene.unity.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\OutdoorsScene.unity.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\OutdoorsScene.unity.meta
+          projectPath: Assets\OutdoorsScene.unity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Readme.asset
+        label: Readme.asset
+        level: 1
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Readme.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset
+          projectPath: Assets\Readme.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Readme.asset.meta
+        label: Readme.asset.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Readme.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Readme.asset.meta
+          projectPath: Assets\Readme.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings.meta
+        label: Settings.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings.meta
+          projectPath: Assets\Settings.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings
+        label: Settings
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset
+        label: HDRP Balanced.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP Balanced.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Balanced.asset
+          projectPath: Assets\Settings\HDRP Balanced.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP Balanced.asset.meta
+        label: HDRP Balanced.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP Balanced.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Balanced.asset.meta
+          projectPath: Assets\Settings\HDRP Balanced.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset
+        label: HDRP High Fidelity.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP High Fidelity.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            High Fidelity.asset
+          projectPath: Assets\Settings\HDRP High Fidelity.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP High Fidelity.asset.meta
+        label: HDRP High Fidelity.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP High Fidelity.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            High Fidelity.asset.meta
+          projectPath: Assets\Settings\HDRP High Fidelity.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset
+        label: HDRP Performant.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP Performant.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Performant.asset
+          projectPath: Assets\Settings\HDRP Performant.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRP Performant.asset.meta
+        label: HDRP Performant.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRP Performant.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRP
+            Performant.asset.meta
+          projectPath: Assets\Settings\HDRP Performant.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources.meta
+        label: HDRPDefaultResources.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources.meta
+          projectPath: Assets\Settings\HDRPDefaultResources.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources
+        label: HDRPDefaultResources
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+        label: DefaultLookDevProfile.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+        label: DefaultLookDevProfile.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultLookDevProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+        label: DefaultSettingsVolumeProfile.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+        label: DefaultSettingsVolumeProfile.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\DefaultSettingsVolumeProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+        label: FoliageDiffusionProfile.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+        label: FoliageDiffusionProfile.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\FoliageDiffusionProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+        label: HDRenderPipelineAsset.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+        label: HDRenderPipelineAsset.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineAsset.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+        label: HDRenderPipelineGlobalSettings.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+        label: HDRenderPipelineGlobalSettings.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\HDRenderPipelineGlobalSettings.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+        label: SkinDiffusionProfile.asset
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+        label: SkinDiffusionProfile.asset.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          projectPath: Assets\Settings\HDRPDefaultResources\SkinDiffusionProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset
+        label: SkyandFogSettingsProfile.asset
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\SkyandFogSettingsProfile.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset
+          projectPath: Assets\Settings\SkyandFogSettingsProfile.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+        label: SkyandFogSettingsProfile.asset.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          projectPath: Assets\Settings\SkyandFogSettingsProfile.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo.meta
+        label: TutorialInfo.meta
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo.meta
+          projectPath: Assets\TutorialInfo.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo
+        label: TutorialInfo
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons.meta
+        label: Icons.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Icons.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons.meta
+          projectPath: Assets\TutorialInfo\Icons.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons
+        label: Icons
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png
+        label: HDRP.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Icons\HDRP.png
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png
+          projectPath: Assets\TutorialInfo\Icons\HDRP.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\HDRP.png.meta
+        label: HDRP.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Icons\HDRP.png.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\HDRP.png.meta
+          projectPath: Assets\TutorialInfo\Icons\HDRP.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png
+        label: Help_Icon.png
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Icons\Help_Icon.png
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+        label: Help_Icon.png.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          projectPath: Assets\TutorialInfo\Icons\Help_Icon.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt
+        label: Layout.wlt
+        level: 2
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Layout.wlt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt
+          projectPath: Assets\TutorialInfo\Layout.wlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Layout.wlt.meta
+        label: Layout.wlt.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Layout.wlt.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Layout.wlt.meta
+          projectPath: Assets\TutorialInfo\Layout.wlt.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts.meta
+        label: Scripts.meta
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts.meta
+          projectPath: Assets\TutorialInfo\Scripts.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts
+        label: Scripts
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor.meta
+        label: Editor.meta
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts\Editor.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor
+        label: Editor
+        level: 3
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+        label: ReadmeEditor.cs
+        level: 4
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+        label: ReadmeEditor.cs.meta
+        level: 5
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs
+        label: Readme.cs
+        level: 3
+        isFolder: 0
+        isContainer: 1
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts\Readme.cs
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+        label: Readme.cs.meta
+        level: 4
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Assets\TutorialInfo\Scripts\Readme.cs.meta
+          projectPath: Assets\TutorialInfo\Scripts\Readme.cs.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages
+        label: Packages
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: Packages\manifest.json
+        label: manifest.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\manifest.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\manifest.json
+          projectPath: Packages\manifest.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: Packages\packages-lock.json
+        label: packages-lock.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: Packages\packages-lock.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\Packages\packages-lock.json
+          projectPath: Packages\packages-lock.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings
+        label: ProjectSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\AudioManager.asset
+        label: AudioManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\AudioManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\AudioManager.asset
+          projectPath: ProjectSettings\AudioManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\ClusterInputManager.asset
+        label: ClusterInputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ClusterInputManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ClusterInputManager.asset
+          projectPath: ProjectSettings\ClusterInputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\DynamicsManager.asset
+        label: DynamicsManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\DynamicsManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\DynamicsManager.asset
+          projectPath: ProjectSettings\DynamicsManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\EditorBuildSettings.asset
+        label: EditorBuildSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorBuildSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorBuildSettings.asset
+          projectPath: ProjectSettings\EditorBuildSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\EditorSettings.asset
+        label: EditorSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\EditorSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\EditorSettings.asset
+          projectPath: ProjectSettings\EditorSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\GraphicsSettings.asset
+        label: GraphicsSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\GraphicsSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\GraphicsSettings.asset
+          projectPath: ProjectSettings\GraphicsSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\HDRPProjectSettings.asset
+        label: HDRPProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\HDRPProjectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\HDRPProjectSettings.asset
+          projectPath: ProjectSettings\HDRPProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\InputManager.asset
+        label: InputManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\InputManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\InputManager.asset
+          projectPath: ProjectSettings\InputManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\MemorySettings.asset
+        label: MemorySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\MemorySettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\MemorySettings.asset
+          projectPath: ProjectSettings\MemorySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\NavMeshAreas.asset
+        label: NavMeshAreas.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\NavMeshAreas.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\NavMeshAreas.asset
+          projectPath: ProjectSettings\NavMeshAreas.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\PackageManagerSettings.asset
+        label: PackageManagerSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PackageManagerSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PackageManagerSettings.asset
+          projectPath: ProjectSettings\PackageManagerSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\Packages
+        label: Packages
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage
+        label: com.unity.testtools.codecoverage
+        level: 2
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+        label: Settings.json
+        level: 3
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          projectPath: ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\Physics2DSettings.asset
+        label: Physics2DSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\Physics2DSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\Physics2DSettings.asset
+          projectPath: ProjectSettings\Physics2DSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\PresetManager.asset
+        label: PresetManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\PresetManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\PresetManager.asset
+          projectPath: ProjectSettings\PresetManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectSettings.asset
+        label: ProjectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectSettings.asset
+          projectPath: ProjectSettings\ProjectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\ProjectVersion.txt
+        label: ProjectVersion.txt
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ProjectVersion.txt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ProjectVersion.txt
+          projectPath: ProjectSettings\ProjectVersion.txt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        label: QualitySettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\SceneTemplateSettings.json
+        label: SceneTemplateSettings.json
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\SceneTemplateSettings.json
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\SceneTemplateSettings.json
+          projectPath: ProjectSettings\SceneTemplateSettings.json
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\ShaderGraphSettings.asset
+        label: ShaderGraphSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\ShaderGraphSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\ShaderGraphSettings.asset
+          projectPath: ProjectSettings\ShaderGraphSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\TagManager.asset
+        label: TagManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TagManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TagManager.asset
+          projectPath: ProjectSettings\TagManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\TimeManager.asset
+        label: TimeManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\TimeManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\TimeManager.asset
+          projectPath: ProjectSettings\TimeManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\UnityConnectSettings.asset
+        label: UnityConnectSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\UnityConnectSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\UnityConnectSettings.asset
+          projectPath: ProjectSettings\UnityConnectSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\VFXManager.asset
+        label: VFXManager.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VFXManager.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VFXManager.asset
+          projectPath: ProjectSettings\VFXManager.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\VersionControlSettings.asset
+        label: VersionControlSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\VersionControlSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\VersionControlSettings.asset
+          projectPath: ProjectSettings\VersionControlSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\XRSettings.asset
+        label: XRSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\XRSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\XRSettings.asset
+          projectPath: ProjectSettings\XRSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: ProjectSettings\boot.config
+        label: boot.config
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: ProjectSettings\boot.config
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\ProjectSettings\boot.config
+          projectPath: ProjectSettings\boot.config
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings
+        label: UserSettings
+        level: 0
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        label: EditorUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings\HDRPUserSettings.asset
+        label: HDRPUserSettings.asset
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\HDRPUserSettings.asset
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\HDRPUserSettings.asset
+          projectPath: UserSettings\HDRPUserSettings.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings\Layouts
+        label: Layouts
+        level: 1
+        isFolder: 1
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: 
+          fullPath: 
+          projectPath: 
+          originalPath: 
+          indexStatus: 0
+          workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2021.dwlt
+        label: default-2021.dwlt
+        level: 2
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Layouts\default-2021.dwlt
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Layouts\default-2021.dwlt
+          projectPath: UserSettings\Layouts\default-2021.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+      - path: UserSettings\Search.settings
+        label: Search.settings
+        level: 1
+        isFolder: 0
+        isContainer: 0
+        isCollapsed: 0
+        isHidden: 0
+        isActive: 0
+        treeIsCheckable: 0
+        checkState: 0
+        isLocked: 0
+        gitStatusEntry:
+          path: UserSettings\Search.settings
+          fullPath: C:\Users\taygu\Documents\Unity Projects\unity-git-test\UserSettings\Search.settings
+          projectPath: UserSettings\Search.settings
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
       selectedNode:
         path: 
         label: 
@@ -519,25 +3809,25 @@ MonoBehaviour:
     detailsScroll: {x: 0, y: 0}
   settingsView:
     gitPathView:
-      gitPath: 
-      gitLfsPath: 
+      gitPath: C:\Program Files\Git\cmd\git.exe
+      gitLfsPath: C:\Program Files\Git\cmd\git-lfs.exe
       errorMessage: 
       resetToBundled: 0
       resetToSystem: 0
       changingManually: 0
     hasRemote: 0
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-11-26T18:09:00.427+03:00
+      cacheType: 1
     newRepositoryRemoteUrl: 
-    repositoryRemoteName: 
+    repositoryRemoteName: origin
     repositoryRemoteUrl: 
     scroll: {x: 0, y: 0}
     userSettingsView:
-      gitName: 
-      gitEmail: 
-      newGitName: 
-      newGitEmail: 
+      gitName: Thai
+      gitEmail: 61286182+Thai07@users.noreply.github.com
+      newGitName: Thai
+      newGitEmail: 61286182+Thai07@users.noreply.github.com
       needsSaving: 0
       lastCheckUserChangedEvent:
         updatedTimeString: 0001-01-01T00:00:00.000+00:00
@@ -545,10 +3835,10 @@ MonoBehaviour:
     webTimeout: 100000
     gitTimeout: 5000
   locksView:
-    currentRemoteHasUpdate: 0
+    currentRemoteHasUpdate: 1
     currentStatusEntriesHasUpdate: 0
     currentLocksHasUpdate: 0
-    keychainHasUpdate: 0
+    keychainHasUpdate: 1
     locksControl:
       scroll: {x: 0, y: 0}
       gitLockEntries: []
@@ -567,16 +3857,16 @@ MonoBehaviour:
             email: 
           lockedAtString: 
         gitFileStatus: 0
-        lockedAt: 
+        lockedAt: 1 Oca 0001, 02:00
     lastCurrentRemoteChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-11-26T18:09:00.427+03:00
+      cacheType: 1
     lastLocksChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      cacheType: 7
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 
-      cacheType: 0
+      updatedTimeString: 2022-11-26T18:25:19.085+03:00
+      cacheType: 6
     lockedFiles: []
     gitStatusEntries: []
     currentUsername: 
@@ -590,14 +3880,14 @@ MonoBehaviour:
       m_Tooltip: 
   hasRemote: 0
   currentRemoteName: 
-  currentBranch: 
+  currentBranch: master
   currentRemoteUrl: No remote configured
   statusAhead: 0
   statusBehind: 0
   hasItemsToCommit: 0
   isTrackingRemoteBranch: 0
   currentBranchContent:
-    m_Text: 
+    m_Text: master
     m_Image: {fileID: 0}
     m_Tooltip: Active branch
   currentRemoteUrlContent:
@@ -605,14 +3895,14 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: Add a remote in the Settings tab
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2022-11-26T18:09:00.427+03:00
+    cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2022-11-26T18:25:19.138+03:00
+    cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 
-    cacheType: 0
+    updatedTimeString: 2022-11-26T18:25:19.085+03:00
+    cacheType: 6
   pullButtonContent:
     m_Text: Pull
     m_Image: {fileID: 0}
@@ -631,7 +3921,7 @@ MonoBehaviour:
     m_Tooltip: 
   repositoryProgressValue: 0
   repositoryProgressMessage: 
-  appManagerProgressValue: 0
+  appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
 --- !u!114 &13
@@ -689,9 +3979,9 @@ MonoBehaviour:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: aed40000
-    m_LastClickedID: 54446
-    m_ExpandedIDs: 00000000aed4000000ca9a3bffffff7f
+    m_SelectedIDs: ec730000
+    m_LastClickedID: 29676
+    m_ExpandedIDs: 00000000ec73000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,7 +4009,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 
+    m_ExpandedIDs: 00000000ec730000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -851,7 +4141,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: faaaffff
+      m_ExpandedIDs: 32fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
